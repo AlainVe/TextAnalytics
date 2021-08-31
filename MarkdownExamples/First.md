@@ -147,3 +147,19 @@ and so the file name 02-01\[1\] would end up being something like 02-01%5B1%5D
 
 
 
+How do you show code in the markdown
+for example python fragment
+```python
+def calculateSurface(lenght,width):
+    surface = length * width
+```
+
+another example
+```c++
+void whatever(){
+    cout << "Whatever ... " 
+    }
+```
+It has to be the backtick, single ' will not work
+nice part of this is that people can easily copy the code as a copy/paste icon will be shown
+
