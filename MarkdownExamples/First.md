@@ -1,4 +1,14 @@
-2. First numbered element
+If you want to show a quote, you start the line with the bigger than sign
+
+> This then is a quote
+
+
+> "This is a quoted quote"
+
+
+
+
+2. First numbered element will start at number you give for first line
 3. how will this show ?
 
     1. sublist
@@ -6,6 +16,17 @@
     3.      2. nice going ?
     5. 2nd sublist item
     6.      3. list 
+
+
+Another example would be
+
+9999. start at 9999 I hope
+10000. and continue 
+10001. and one more
+10010. and last one
+
+
+
 
 # Header 1 (needs a space after pound sign
 ## Header 2
@@ -116,6 +137,13 @@ right | --:
 :-- | --:
 dash dash colon | right aligned
 
+
+And showing a local file.
+Note, special characters have to be written as hex.  For example a \[ will be written as %5B
+
+and so the file name 02-01\[1\] would end up being something like 02-01%5B1%5D
+
+![](02-01%5B1%5D.jpg)
 
 
 
